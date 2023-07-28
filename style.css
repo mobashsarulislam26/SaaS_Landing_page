@@ -1,5 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 400px) {
+    #footer .container .footerClass ,#free_resources ,.container .inerr_free_resources, .experience,.container,.service .container .compelete_service,.team .container .team-member ,.rectangle .container .rectangle-text .retangle-icon , .component-Part .container .meddel-page .meddel , .component .container .componentlist , .hero .container .hero-text .hero-img ,.header .container  .Log .main_menu
+     {
+        width: 25%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #footer  .footerClass,
+    #free_resources,
+     .inerr_free_resources,
+    .experience,
+    ,
+    .service  .compelete_service,
+    .team .team-member,
+    .rectangle  .rectangle-text .retangle-icon,
+    .component-Part  .meddel-page .meddel,
+    .component  .componentlist,
+    .hero  .hero-text .hero-img,
+    .header  .Log .main_menu {
+        width: 50%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media screen and (max-width: 800px) {
+
+    #footer .container .footerClass,
+    #free_resources,
+    .container .inerr_free_resources,
+    .experience,
+    .container,
+    .service .container .compelete_service,
+    .team .container .team-member,
+    .rectangle .container .rectangle-text .retangle-icon,
+    .component-Part .container .meddel-page .meddel,
+    .component .container .componentlist,
+    .hero .container .hero-text .hero-img,
+    .header .container .Log .main_menu {
+        width: 75%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    #footer .container .footerClass,
+    #free_resources,
+    .container .inerr_free_resources,
+    .experience,
+    .container,
+    .service .container .compelete_service,
+    .team .container .team-member,
+    .rectangle .container .rectangle-text .retangle-icon,
+    .component-Part .container .meddel-page .meddel,
+    .component .container .componentlist,
+    .hero .container .hero-text .hero-img,
+    .header .container .Log .main_menu {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
 
 *{
     margin: 0;
@@ -231,14 +299,6 @@ margin-bottom: 60px;
 }
 
 
- /* .retangle-icon div {
-    display: inline-flex;
-    padding: 37px 17px 20px 4px;
-    flex-direction: column;
-    align-items: center;
-    
-}  */
-
 
 
    .container  .rectangle  {
@@ -325,7 +385,7 @@ margin-bottom: 60px;
     text-align: center;
     font-size: 32px;
     line-height: 50px;
-    /* 156.25% */
+    
 }
 
 .service .compelete_service p {
@@ -334,7 +394,7 @@ margin-bottom: 60px;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
-    /* 177.778% */
+   
     margin-bottom: 90px;
 }
 
@@ -344,7 +404,7 @@ margin-bottom: 60px;
     text-align: center;
     font-size: 32px;
     line-height: 50px;
-    /* 156.25% */
+    
     letter-spacing: -1px;
     margin-bottom: 35px;
 }
@@ -365,7 +425,7 @@ margin-bottom: 60px;
     text-align: center;
     font-size: 18px;
     line-height: 32px;
-    /* 177.778% */
+    
     margin-bottom: 90px;
 }
 
@@ -389,72 +449,7 @@ margin-bottom: 60px;
     margin: 0 0 0px 285px ;
 }
 
-/*
 
-#Empower .empower_all .empower-text {
-    text-align: center;
-    font-size: 32px;
-    line-height: 50px;
-    margin-bottom: 90px;
-} 
-
-#Empower .empower-text .empower_all .empower_img img {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-#Empower .empower-text .resources_text {
-    padding: 10px 20px;
-}
-
-#Empower .empower-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px;
-}
-
-#Empower .empower-text h4 {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 50px;
-    margin: 90px 0;
-}
-
-#Empower .empower-text .empower_all {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20PX;
-}
-
-#Empower .empower-text .empower_all .empower_img {
-    width: 378px;
-    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-}
-
-#Empower .empower-text .resources_text a {
-    border-radius: 2px;
-    background: rgba(19, 97, 245, 0.10);
-    padding: 3px 8px;
-    color: #004CE6;
-    font-size: 12px;
-    font-weight: 500;
-    margin-right: 10px; */
-    /* margin-bottom: 10px; */
-/*     
-}
-
-#Empower .empower-text .resources_text h4 {
-    color: #223140;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    margin: 10px 0;
-}
-  */
 
   #free_resources .inerr_free_resources {
       display: flex;
@@ -590,8 +585,6 @@ margin-bottom: 60px;
 #footer .footerClass .About h4 {
     color: #1D1D1D;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
     line-height: 28px;
     margin-bottom: 30px;
 }
@@ -610,26 +603,30 @@ margin-bottom: 60px;
 }
 
 #footer .footerClass .About .blog .blog_img {
-    width: 370px;
+    width: 154px;
     height: 105px;
 }
 
-#footer .footerClass .about .blog .blog_text p {
+#footer .footerClass .About .blog .blog_text p {
     color: #535558;
     font-size: 14px;
     line-height: 22px;
 }
 
-#footer .footerClass .about .blog {
+#footer .footerClass .About .blog {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px;
-    gap: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
+        justify-content: start;
+        align-items: center;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+        margin-bottom: 20px;
+        gap: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+}
+#footer .footerClass .About .blog img{
+    border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
 }
 
