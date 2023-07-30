@@ -5,66 +5,14 @@
 }
 
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width: 400px) {
-    #footer .container .footerClass ,#free_resources ,.container .inerr_free_resources, .experience,.container,.service .container .compelete_service,.team .container .team-member ,.rectangle .container .rectangle-text .retangle-icon , .component-Part .container .meddel-page .meddel , .component .container .componentlist , .hero .container .hero-text .hero-img ,.header .container  .Log .main_menu
-     {
-        width: 25%;
-        
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    #footer  .footerClass,
-    #free_resources,
-     .inerr_free_resources,
-    .experience,
-    ,
-    .service  .compelete_service,
-    .team .team-member,
-    .rectangle  .rectangle-text .retangle-icon,
-    .component-Part  .meddel-page .meddel,
-    .component  .componentlist,
-    .hero  .hero-text .hero-img,
-    .header  .Log .main_menu {
-        width: 50%;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
+ 
 @media screen and (max-width: 800px) {
-
-    #footer .container .footerClass,
-    #free_resources,
-    .container .inerr_free_resources,
-    .experience,
-    .container,
-    .service .container .compelete_service,
-    .team .container .team-member,
-    .rectangle .container .rectangle-text .retangle-icon,
-    .component-Part .container .meddel-page .meddel,
-    .component .container .componentlist,
-    .hero .container .hero-text .hero-img,
-    .header .container .Log .main_menu {
-        width: 75%;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
-}
-@media screen and (max-width: 1000px) {
-
-    #footer .container .footerClass,
-    #free_resources,
-    .container .inerr_free_resources,
-    .experience,
-    .container,
-    .service .container .compelete_service,
-    .team .container .team-member,
-    .rectangle .container .rectangle-text .retangle-icon,
-    .component-Part .container .meddel-page .meddel,
-    .component .container .componentlist,
-    .hero .container .hero-text .hero-img,
-    .header .container .Log .main_menu {
-        width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
+#footer .footerClass,
+    #free_resources,.inerr_free_resources,
+    .experience, .service .compelete_service,
+    .team .team-member, .rectangle .rectangle-text .retangle-icon,
+    .component-Part  .meddel-page .meddel,.component .componentlist, .hero .hero-text .hero-img, .header .Log .main_menu {
+    flex-direction : column;
     }
 }
 
